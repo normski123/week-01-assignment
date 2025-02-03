@@ -1,0 +1,39 @@
+body {
+  background-color: beige;
+  border: 35px solid;
+  border-color: #ff0000 #00ff00 #0000ff;
+  border-radius: 40px;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: auto;
+}
+.container {
+  margin: 10px;
+  padding: 10px;
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-family: system-ui;
+}
+div {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info {
+  display: flex;
+}
+#tel-number:hover {
+  color: #0000ff;
+}
+.motto {
+  color: gray;
+}
+footer {
+  margin-top: auto;
+}
